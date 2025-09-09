@@ -1,0 +1,19 @@
+// function New(props) {
+//     return (
+//         <div className='new_container'>
+//             <h1 className='new_text'>{props.title}</h1>
+//         </div>
+//     );
+// }
+
+// export default New;
+
+function New(props) {
+    return (
+        <button className='new_container' onClick={props.onClick}>
+            <h1 className='new_text'>{props.title}</h1>
+        </button>
+    );
+}
+
+export default New;
