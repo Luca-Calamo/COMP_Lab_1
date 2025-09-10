@@ -8,8 +8,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 1em;
+    height: 80vh;
 }
 
 .container {
